@@ -19,7 +19,7 @@ def word_substituter(tweet)
   dictionary.keys.each do |key_word_to_substitute|
     idx = tweet.index(key_word_to_substitute)
     if idx != nil
-      
+      tweet.slice
     end
   end
 end
