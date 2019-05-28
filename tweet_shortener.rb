@@ -19,6 +19,8 @@ def word_substituter(tweet)
   tweet_words = tweet.split(" ")
   tweet_words.each do |word_in_tweet|
     if dictionary.include?(word_in_tweet)
+      word_in_tweet = 
+    end
     
   end
   end
