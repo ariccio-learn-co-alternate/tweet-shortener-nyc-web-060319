@@ -16,5 +16,9 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  
+  dictionary.keys.each do |key_word_to_substitute|
+    if tweet.include?(key_word_to_substitute)
+      
+    end
+  end
 end
