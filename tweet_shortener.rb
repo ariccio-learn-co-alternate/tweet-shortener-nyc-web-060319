@@ -34,3 +34,9 @@ def bulk_tweet_shortener(tweets)
 end
 
 
+def word_substituter(tweet)
+  if tweet.length < 140
+    return tweet
+  end
+  word_substituter(tweet)
+end
