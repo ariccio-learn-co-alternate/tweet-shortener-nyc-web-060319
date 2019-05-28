@@ -18,11 +18,7 @@ end
 def word_substituter(tweet)
   tweet_words = tweet.split(" ")
   tweet_words.each do |word_in_tweet|
-    dictionary.keys.each do |key_word_to_substitute|
-      idx = tweet.index(key_word_to_substitute)
-      if idx != nil
-        tweet.slice
-      end
+    if dictionary.include?
     
   end
   end
