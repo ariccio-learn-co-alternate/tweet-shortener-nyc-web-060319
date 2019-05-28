@@ -30,7 +30,6 @@ def bulk_tweet_shortener(tweets)
     tweet = word_substituter(tweet)
     puts tweet
   end
-  tweets
 end
 
 
